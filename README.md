@@ -74,35 +74,6 @@ net.train(eps=100, lr=0.1)
 # Make a prediction
 output = net.predict(input_data)
 
-'''
-### Activation and Loss Functions
-
-The framework provides a dictionary of available activation and loss functions. To use a specific function, you can pass the corresponding key as a string when adding layers or setting the loss function.
-
-Available activation functions:
-* 'relu': activations.relu
-* 'sigmoid': activations.sigmoid 
-* 'tanh': activations.tanh
-* 'softmax': activations.softmax
-
-Available loss functions:
-* 'mse': losses.mse
-* 'cross_entropy': losses.cross_E
-* 'binary_cross_entropy': losses.binary_cross_E
-
-## File Structure
-
-* `network.py`: Contains the `Network` class and its methods.
-* `layers.py`: Defines the different layer types (Convolutional, Flatten, Dense).
-* `activations.py`: Implements the activation functions (ReLU, Sigmoid, Tanh, Softmax).
-* `losses.py`: Implements the loss functions (MSE, Cross-Entropy, Binary Cross-Entropy).
-
-## Dependencies
-
-* `numpy`
-* `scipy` 
-* `matplotlib`
-
 ## Future Improvements
 
 * Add support for more layer types (e.g., Pooling, Dropout, BatchNormalization)
