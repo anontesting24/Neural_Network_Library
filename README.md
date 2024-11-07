@@ -2,6 +2,8 @@
 
 This is a simple neural network framework implemented in Python. It provides a modular and extensible way to build and train neural networks for various tasks.
 
+Shout out to @omar_aflak/The Independent Code for creating impeccable content to learn about neural networks
+
 ## Features
 
 - Supports different activation functions: ReLU, Sigmoid, Tanh, Softmax
