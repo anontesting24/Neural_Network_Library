@@ -73,9 +73,3 @@ net.train(eps=100, lr=0.1)
 
 # Make a prediction
 output = net.predict(input_data)
-
-## Future Improvements
-
-* Add support for more layer types (e.g., Pooling, Dropout, BatchNormalization)
-* Implement more advanced optimization algorithms (e.g., Adam, RMSProp)
-* Add support for GPU acceleration
